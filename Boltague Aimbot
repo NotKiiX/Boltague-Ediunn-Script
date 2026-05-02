@@ -8,7 +8,7 @@ local Player = Players.LocalPlayer
 
 -- === PROTECTED ID SYSTEM ===
 local AllowedIDs = {
-    8533408807,9146281668
+    8533408807,9146281668,3301543079
 }
 
 local function isAllowed()
@@ -47,7 +47,7 @@ local ProtectedLabel = Instance.new("TextLabel", MainFrame)
 ProtectedLabel.Size = UDim2.new(0.8,0,0.08,0)
 ProtectedLabel.Position = UDim2.new(0.1,0,0.02,0)
 ProtectedLabel.BackgroundTransparency = 1
-ProtectedLabel.Text = "Protected: 0 | ID: " .. Player.UserId .. " (30 slots)"
+ProtectedLabel.Text = "ID: " .. Player.UserId .. " | BOLTAGUE AIMBOT"
 ProtectedLabel.TextColor3 = Color3.fromRGB(0,255,0)
 ProtectedLabel.TextScaled = true
 ProtectedLabel.Font = Enum.Font.SourceSansBold
