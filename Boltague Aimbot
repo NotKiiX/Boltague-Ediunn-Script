@@ -21,7 +21,7 @@ end
 if not isAllowed() then
     game:GetService("StarterGui"):SetCore("SendNotification", {
         Title = "❌ Access Denied",
-        Text = "Tu ID DE USUARIO ES: (" .. Player.UserId .. ") Y NO ESTAS AUTORIZAO, CONTACTA A BOLTAGUE.",
+        Text = "Tu ID DE USUARIO ES: (" .. Player.UserId .. ") Y NO ESTAS AUTORIZADO, CONTACTA A BOLTAGUE.",
         Duration = 10
     })
     return
