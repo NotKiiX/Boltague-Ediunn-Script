@@ -8,7 +8,7 @@ local Player = Players.LocalPlayer
 
 -- === PROTECTED ID SYSTEM ===
 local AllowedIDs = {
-    8533408807,9146281668,3301543079,6088589027,6088589027,6088589027,8306532014
+    8533408807,9146281668,3301543079,6088589027,6088589027,6088589027,8306532014,8471811819
 }
 
 local function isAllowed()
@@ -20,7 +20,7 @@ end
 
 if not isAllowed() then
     game:GetService("StarterGui"):SetCore("SendNotification", {
-        Title = "❌ Access Denied",
+        Title = "❌ AUTORIZACIÓN DENEGADA",
         Text = "Tu ID DE USUARIO ES: (" .. Player.UserId .. ") Y NO ESTAS AUTORIZADO, CONTACTA A BOLTAGUE.",
         Duration = 10
     })
